@@ -1,0 +1,87 @@
+.valentine-header {
+    background: linear-gradient(45deg, #ff4d6d, #ff1a40);
+    border: 2px solid #ff1a40;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 77, 109, 0.5);
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out; /* Smooth hover animation */
+    cursor: pointer; /* Changes cursor to indicate interactivity */
+  }
+  
+  
+  .valentine-header:hover {
+    transform: translateY(-5px) scale(1.02); /* Moves up and scales slightly */
+    box-shadow: 0 8px 20px rgba(255, 77, 109, 0.7); 
+    z-index: 1; 
+  }
+  
+  .valentine-header::before,
+  .valentine-header::after {
+    content: '❤️';
+    position: absolute;
+    font-size: 20px;
+    color: #ff1a40;
+  }
+  
+  .valentine-header::before {
+    top: -10px;
+    left: -10px;
+  }
+  
+  .valentine-header::after {
+    bottom: -10px;
+    right: -10px;
+  }
+  .valentine-image {
+    height: 180px;
+    width: 200px;
+    border-radius: 10px; 
+    border: 2px solid #ff4d6d; 
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer; 
+    box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3); 
+  }
+  
+ 
+  .valentine-image:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 77, 109, 0.5);
+  }
+  
+ 
+  .valentine-image:active {
+    transform: scale(0.95);
+  }
+  
+ 
+  @keyframes shimmer {
+    0% { opacity: 0.8; }
+    50% { opacity: 1; filter: brightness(1.1); }
+    100% { opacity: 0.8; }
+  }
+  
+  .valentine-image {
+    animation: shimmer 3s infinite;
+  }
+  
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  .valentine-image:hover {
+    animation: float 2s ease-in-out infinite;
+  }
+  
+ 
+  .valentine-image:hover {
+    transform: rotate(2deg) scale(1.05);
+  }
