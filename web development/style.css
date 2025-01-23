@@ -1,0 +1,9 @@
+button:link{
+    color: red;
+}
+button:hover{
+    color: brown;
+}
+button:visited{
+    color:green;
+}
