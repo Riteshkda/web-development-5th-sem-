@@ -1,0 +1,120 @@
+body{
+  background-image: url("wallpaper-the-sky-the-sky-the-sky-the-sky-the-sky-the-sky-ai-generated-free-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#container{
+  background-color: white;
+  width:1100px;
+  height:455px;
+  background-attachment: fixed;
+  background-position: center;
+  margin-left: 120px;
+  text-align: center;
+  border: solid;
+  align-items: center;
+}
+#head{
+  background-color: rgb(131, 6, 114);
+ 
+  margin-left: 100px;
+  margin-right:100px;
+  margin-bottom: 0px;
+  font-size: x-large;
+  height: 50px;
+  color: white;
+  padding-bottom: 2px;
+  width: 870px;
+}
+#box1{
+  background-color: rgb(206, 78, 99);
+  margin-left: 100px;
+  height: 60px;
+  width:240px;
+  margin-top:0px;
+  border: solid;
+  margin-bottom: 0px;
+
+
+}
+#box2{
+background-color:lightcoral;
+ 
+  margin-left: 100px;
+  height: 80px;
+  width:240px;
+  margin-top:0px;
+  border: solid;
+  margin-bottom: 0px;
+
+}
+#box3{
+  background-color: lightsalmon;
+  margin-left: 100px;
+  height: 90px;
+  width:240px;
+  margin-top:0px;
+  border: solid;
+  margin-bottom: 0px;
+}
+#foot{
+  background-color: lightgreen;
+margin-left: -3px;
+margin-right:auto;
+margin-top:0px;
+height: 35px;
+width: 865px;
+border: solid;
+text-align: center;
+padding-bottom: 3px;
+}
+#table{
+  margin-left: 300px;
+  margin-top:0px;
+  background-color: white;
+}
+.food-items{
+  margin-left: 242px;
+  background-color: rgb(250, 250, 250);
+  margin-top:-56px;
+  display: flexbox;
+  
+  align-items:center ;
+  height: 58px;
+  width: 625px;
+  padding: auto;
+  border-right: 1px solid;
+  margin-bottom: 0px;
+  border-bottom: 1px solid;
+}
+.food-items2{
+  margin-left: 242px;
+  background-color: rgb(250, 250, 250);
+  margin-top:-63px;
+  display: flexbox;
+  
+  align-items:center ;
+  height: 90px;
+  width: 625px;
+  padding-top: auto;
+  border-right: 1px solid;
+  margin-bottom: 0px;
+  border-bottom: 1px solid;
+}
+.food-items3{
+  margin-left: 242px;
+  background-color: rgb(250, 250, 250);
+  margin-top:-59px;
+  display: flexbox;
+  
+  align-items:center ;
+  height: 97px;
+  width: 625px;
+  padding-top: auto;
+  padding-bottom: auto;
+  border-right: 1px solid;
+  margin-bottom: 0px;
+  border-bottom: 1px solid;
+  margin-bottom: none;
+}
