@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM</title>
+  <link rel="stylesheet" href="forms.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+15&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <div class="contain" align="center"><h1 style="text-shadow: 3px -3px 5px rgb(80, 59, 59);">🧾Fill your information here🧾</h1>
+  <div class="form">
+    <form action="/submit" align="center" method="post" enctype="multipart/form-data">
+      <label for="FirstName" style="margin:2px">FirstName:</label>
+      <input type="text" for="FirstName" id=FirstName placeholder="Sherlock" required><br>
+    <label for="LastName" style="margin:2px;">LastName:</label>
+    <input type="text" for="LastName" id="LastName" placeholder="Holmes"required><br>
+    <label for="Email"style="margin:2px";>Email:</label>
+    <input type="email" for="Email" id="Email" placeholder="Mango@gmail.com" required><br>
+    <label for="pass">Password:</label>
+    <input type="password" for="pass" id="pass" placeholder="XXXXXXXXXXX" required minlength="8"><br>
+    <label for="Contactno"style="margin:2px">Contact no:</label>
+    <input type="tel" for="Contactno" id="Contactno" placeholder="# +977 1 YXXX XXX"><br>
+    <label for="gender"></label>
+    <fieldset>
+      <legend>Gender:</legend>
+      <label for="Male">Male:</label>
+      <input type="radio" name="Gender" id="Male" value="male">
+      <label for="Female">Female:</label>
+      <input type="radio" name="Gender" id="Female" value="Female">
+    </fieldset><br>
+    <label for="dob">Date Of Birth:</label>
+    <input type="date" for="dob" id="dob" placeholder=""><br>
+    <label for="payment">PaymentMethod:</label>
+    <select name="payment" id="payment">
+      <option value="visa card">Visa</option>
+      <option value="paypal">Paypal</option>
+      <option value="esewa">Eswa</option>
+    </select><br>
+    <label for="file">Upload Citizenship card:</label>
+    <input type="file" for="file" id="file"><br>
+   <button type="submit">Submit form</button><br>
+   <button type="reset">Reset form</button>
+    </form>
+  </div>
+
+  </div>
+  
+  
+</body>
+</html>

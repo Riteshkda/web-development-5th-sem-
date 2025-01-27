@@ -1,0 +1,46 @@
+body{
+  background-image: url("/cool-background.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "PT Sans Narrow",sans-serif;
+}
+.contain{
+  height:500px;
+  width: 400px;
+  background-color: aliceblue; 
+  margin-left: 500px;
+  border-radius: 10px;
+  border-style:inset;
+  box-shadow: 3px 0px 5px tomato;
+  background-attachment: fixed;
+  
+  
+  
+}
+.form{
+ background-color: aquamarine;
+ background-size: cover;
+ font-style:oblique;
+ border-radius: 5px;
+ margin: auto;
+}
+form{
+  margin-left: 5px;
+  border-radius: 5px;
+  padding:auto;
+  box-shadow: 5px 0px 10px aqua,
+}
+button{
+  background-color: rgb(187, 149, 149);
+  border-radius: 5px;
+}
+button:hover{
+  
+  box-shadow: 0 0 20px #4CAF50;;
+}
+button:active{
+  box-shadow: 0 0 20px rgb(124, 31, 74);
+
+}
