@@ -1,0 +1,16 @@
+#year-box {
+    border: solid;
+    height: 5em;
+    width: 8em;
+    margin-right: 2px;
+    float: right; /* Add this to move the box to the right */
+    margin-top:2px;
+}
+#header{
+    position: relative;
+    top:100px;
+}
+#result-table tr{
+    height:40px;
+    text-align:center;
+}
